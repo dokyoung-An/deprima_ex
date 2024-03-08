@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.9/20024
 // Filename: ???? ?? VR ?? - ??????.ggsk
-// Generated 2024-03-08T17:59:57
+// Generated 2024-03-08T18:03:58
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_maincenter', 2, false, { ignoreInState: 0  });
@@ -5342,24 +5342,6 @@ function pano2vrSkin(player,base) {
 			{
 				newLogicStateVisible = 0;
 			}
-			else if (
-				((player.getIsMobile() == true))
-			)
-			{
-				newLogicStateVisible = 1;
-			}
-			else if (
-				((player.getViewerSize().width > 640))
-			)
-			{
-				newLogicStateVisible = 2;
-			}
-			else if (
-				((player.getIsMobile() == false))
-			)
-			{
-				newLogicStateVisible = 3;
-			}
 			else {
 				newLogicStateVisible = -1;
 			}
@@ -5369,18 +5351,6 @@ function pano2vrSkin(player,base) {
 				if (me.__40.ggCurrentLogicStateVisible == 0) {
 					me.__40.style.visibility=(Number(me.__40.style.opacity)>0||!me.__40.style.opacity)?'inherit':'hidden';
 					me.__40.ggVisible=true;
-				}
-				else if (me.__40.ggCurrentLogicStateVisible == 1) {
-					me.__40.style.visibility=(Number(me.__40.style.opacity)>0||!me.__40.style.opacity)?'inherit':'hidden';
-					me.__40.ggVisible=true;
-				}
-				else if (me.__40.ggCurrentLogicStateVisible == 2) {
-					me.__40.style.visibility="hidden";
-					me.__40.ggVisible=false;
-				}
-				else if (me.__40.ggCurrentLogicStateVisible == 3) {
-					me.__40.style.visibility="hidden";
-					me.__40.ggVisible=false;
 				}
 				else {
 					me.__40.style.visibility="hidden";
@@ -10417,7 +10387,6 @@ function pano2vrSkin(player,base) {
 			me._map_11.ggInitMap(false);
 			me._map_11.ggInitMapMarkers(true);
 			me.__40.logicBlock_position();
-			me.__40.logicBlock_visible();
 			for (var i=0; i < me._map_10.ggMarkerInstances.length; i++) {
 				me._map_10.ggMarkerInstances[i].ggEvent_configloaded();
 			}
