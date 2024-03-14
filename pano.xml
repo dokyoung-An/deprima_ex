@@ -1,178 +1,178 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="20024" start="node3" appversion="7.0.9">
+<tour start="node3" appversion="7.0.9" apprev="20024">
   <panorama hideabout="1" id="node3">
-    <input height="2000" levelingpitch="0" leveltilesize="510" width="2000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400">
-      <level height="2000" preload="0" width="2000" predecode="0"/>
-      <level height="1000" preload="0" width="1000" predecode="0"/>
-      <level height="500" preload="1" width="500" predecode="1"/>
+    <input levelingpitch="0" levelingroll="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" width="2000" levelbiashidpi="1.000" overlap="1" leveltilesize="510" levelbias="0.400">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="2" pannorth="-163.906">
-      <start tilt="-0.0504299" projection="4" pan="-5.28321" fov="117.015"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" fovstereographic="330" pan="360" fov="140"/>
+    <view pannorth="-163.906" fovmode="2">
+      <start projection="4" fov="117.015" tilt="-0.0504299" pan="-5.28321"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovfisheye="360" scaletofit="1" fov="140" tilt="90" fovstereographic="330" pan="360"/>
     </view>
-    <userdata source="" copyright="" title="주출입구" tags="디프리마외부-1-아웃도어-20240304-133236|메인" nodeid="node3" longitude="" latitude="" datetime="" description="" heading="-163.906" customnodeid="" info="" comment="" author="">
-      <mapcoords y="-0.395508" x="1.61499" x_floorplan_percent="58.8" mapid="FloorPlan01" y_floorplan_percent="14.4"/>
+    <userdata tags="디프리마외부-1-아웃도어-20240304-133236|메인" info="" comment="" heading="-163.906" customnodeid="" latitude="" description="" title="주출입구" author="" longitude="" copyright="" datetime="" source="" nodeid="node3">
+      <mapcoords y_floorplan_percent="14.4" x_floorplan_percent="58.8" mapid="FloorPlan01" x="1.61499" y="-0.395508"/>
     </userdata>
-    <hotspots height="20" width="180" wordwrap="1" smoothmovement="0">
-      <label enabled="1" height="20" textcolor="0x000000" background="1" bordercolor="0x000000" textalpha="1" width="180" border="1" borderalpha="1" borderradius="1" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0"/>
-      <hotspot description="" tilt="-9.92" target="" title="단지내부인도" url="{node1}" id="Point01" skinid="화살표 흰색" pan="-65.35"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label backgroundcolor="0xffffff" background="1" borderalpha="1" border="1" textcolor="0x000000" borderradius="1" textalpha="1" backgroundalpha="1" height="20" width="180" wordwrap="1" enabled="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
+      <hotspot title="단지내부인도" skinid="화살표 흰색" url="{node1}" tilt="-9.92" target="" description="" pan="-65.35" id="Point01"/>
     </hotspots>
     <media/>
-    <transition enabled="1" softedge="0" zoomin="0" zoomafteroutfov="40" delay="none" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomafterinfov="140" blendcolor="0x000000" zoomspeed="2" zoomfov="40" blendtime="1"/>
-    <autorotate enabled="1" startloaded="0" useanimation="0" delay="5.00" horizonfromdefview="0" returntohorizon="0.000" noderandom="1" nodedelay="0.00" nodefilter="" speed="0.020"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control contextprojections="0" simulatemass="1" lockedwheel="0" contextfullscreen="1" contextvr="1" lockedmouse="0" dblclickfullscreen="0" sensitivity="8" lockedkeyboardzoom="0" hideabout="1" invertwheel="0" speedwheel="1" lockedkeyboard="0" rubberband="0" invertcontrol="1" zoomcentercursor="1"/>
+    <transition zoomspeed="2" zoomafterinfov="140" zoomoutpause="1" blendtime="1" zoomfov="40" zoomout="0" type="crossdissolve" zoomafteroutfov="40" delay="none" enabled="1" softedge="0" blendcolor="0x000000" zoomin="0"/>
+    <autorotate useanimation="0" returntohorizon="0.000" noderandom="1" nodedelay="0.00" speed="0.020" enabled="1" delay="5.00" nodefilter="" horizonfromdefview="0" startloaded="0"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control speedwheel="1" zoomcentercursor="1" lockedmouse="0" contextprojections="0" contextvr="1" hideabout="1" invertcontrol="1" invertwheel="0" sensitivity="8" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" simulatemass="1"/>
   </panorama>
   <panorama hideabout="1" id="node4">
-    <input height="2000" levelingpitch="0" leveltilesize="510" width="2000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400">
-      <level height="2000" preload="0" width="2000" predecode="0"/>
-      <level height="1000" preload="0" width="1000" predecode="0"/>
-      <level height="500" preload="1" width="500" predecode="1"/>
+    <input levelingpitch="0" levelingroll="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" width="2000" levelbiashidpi="1.000" overlap="1" leveltilesize="510" levelbias="0.400">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="2" pannorth="91.0199">
-      <start tilt="0.311888" projection="4" pan="-44.0539" fov="134.939"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" fovstereographic="330" pan="360" fov="140"/>
+    <view pannorth="91.0199" fovmode="2">
+      <start projection="4" fov="134.939" tilt="0.311888" pan="-44.0539"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovfisheye="360" scaletofit="1" fov="140" tilt="90" fovstereographic="330" pan="360"/>
     </view>
-    <userdata source="" copyright="" title="야외주차장" tags="디프리마외부-1-아웃도어-20240304-133250|메인" nodeid="node4" longitude="" latitude="" datetime="" description="" heading="91.0199" customnodeid="" info="" comment="" author="">
-      <mapcoords y="-0.477905" x="0.917358" x_floorplan_percent="33.4" mapid="FloorPlan01" y_floorplan_percent="17.4"/>
+    <userdata tags="디프리마외부-1-아웃도어-20240304-133250|메인" info="" comment="" heading="91.0199" customnodeid="" latitude="" description="" title="야외주차장" author="" longitude="" copyright="" datetime="" source="" nodeid="node4">
+      <mapcoords y_floorplan_percent="17.4" x_floorplan_percent="33.4" mapid="FloorPlan01" x="0.917358" y="-0.477905"/>
     </userdata>
-    <hotspots height="20" width="180" wordwrap="1" smoothmovement="0">
-      <label enabled="1" height="20" textcolor="0x000000" background="1" bordercolor="0x000000" textalpha="1" width="180" border="1" borderalpha="1" borderradius="1" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0"/>
-      <hotspot description="" tilt="-17.33" target="" title="단지내부인도" url="{node1}" id="Point01" skinid="화살표 흰색" pan="-184.75"/>
-      <hotspot description="" tilt="-13.67" target="" title="주출입구" url="{node3}" id="Point02" skinid="화살표 흰색" pan="-355.94"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label backgroundcolor="0xffffff" background="1" borderalpha="1" border="1" textcolor="0x000000" borderradius="1" textalpha="1" backgroundalpha="1" height="20" width="180" wordwrap="1" enabled="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
+      <hotspot title="단지내부인도" skinid="화살표 흰색" url="{node1}" tilt="-17.33" target="" description="" pan="-184.75" id="Point01"/>
+      <hotspot title="주출입구" skinid="화살표 흰색" url="{node3}" tilt="-13.67" target="" description="" pan="-355.94" id="Point02"/>
     </hotspots>
     <media/>
-    <transition enabled="1" softedge="0" zoomin="0" zoomafteroutfov="40" delay="none" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomafterinfov="140" blendcolor="0x000000" zoomspeed="2" zoomfov="40" blendtime="1"/>
-    <autorotate enabled="1" startloaded="0" useanimation="0" delay="5.00" horizonfromdefview="0" returntohorizon="0.000" noderandom="1" nodedelay="0.00" nodefilter="" speed="0.020"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control contextprojections="0" simulatemass="1" lockedwheel="0" contextfullscreen="1" contextvr="1" lockedmouse="0" dblclickfullscreen="0" sensitivity="8" lockedkeyboardzoom="0" hideabout="1" invertwheel="0" speedwheel="1" lockedkeyboard="0" rubberband="0" invertcontrol="1" zoomcentercursor="1"/>
+    <transition zoomspeed="2" zoomafterinfov="140" zoomoutpause="1" blendtime="1" zoomfov="40" zoomout="0" type="crossdissolve" zoomafteroutfov="40" delay="none" enabled="1" softedge="0" blendcolor="0x000000" zoomin="0"/>
+    <autorotate useanimation="0" returntohorizon="0.000" noderandom="1" nodedelay="0.00" speed="0.020" enabled="1" delay="5.00" nodefilter="" horizonfromdefview="0" startloaded="0"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control speedwheel="1" zoomcentercursor="1" lockedmouse="0" contextprojections="0" contextvr="1" hideabout="1" invertcontrol="1" invertwheel="0" sensitivity="8" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" simulatemass="1"/>
   </panorama>
   <panorama hideabout="1" id="node1">
-    <input height="2000" levelingpitch="0" leveltilesize="510" width="2000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400">
-      <level height="2000" preload="0" width="2000" predecode="0"/>
-      <level height="1000" preload="0" width="1000" predecode="0"/>
-      <level height="500" preload="1" width="500" predecode="1"/>
+    <input levelingpitch="0" levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" width="2000" levelbiashidpi="1.000" overlap="1" leveltilesize="510" levelbias="0.400">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="2" pannorth="82.2426">
-      <start tilt="1.08858" projection="4" pan="40.5919" fov="134.939"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" fovstereographic="330" pan="360" fov="140"/>
+    <view pannorth="82.2426" fovmode="2">
+      <start projection="4" fov="134.939" tilt="1.08858" pan="40.5919"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovfisheye="360" scaletofit="1" fov="140" tilt="90" fovstereographic="330" pan="360"/>
     </view>
-    <userdata source="" copyright="" title="단지내부인도" tags="디프리마외부-1-아웃도어-20240304-133220|메인" nodeid="node1" longitude="" latitude="" datetime="" description="" heading="82.2426" customnodeid="" info="" comment="" author="">
-      <mapcoords y="-1.19202" x="0.933838" x_floorplan_percent="34" mapid="FloorPlan01" y_floorplan_percent="43.4"/>
+    <userdata tags="디프리마외부-1-아웃도어-20240304-133220|메인" info="" comment="" heading="82.2426" customnodeid="" latitude="" description="" title="단지내부인도" author="" longitude="" copyright="" datetime="" source="" nodeid="node1">
+      <mapcoords y_floorplan_percent="52.2" x_floorplan_percent="33.6" mapid="FloorPlan01" x="0.922852" y="-1.43372"/>
     </userdata>
-    <hotspots height="20" width="180" wordwrap="1" smoothmovement="0">
-      <label enabled="1" height="20" textcolor="0x000000" background="1" bordercolor="0x000000" textalpha="1" width="180" border="1" borderalpha="1" borderradius="1" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0"/>
-      <hotspot description="" tilt="-8.19" target="" title="야외주차장" url="{node4}" id="Point01" skinid="ht_node" pan="-178.52"/>
-      <hotspot description="" tilt="-8.02" target="" title="단지내부정원" url="{node2}" id="Point02" skinid="ht_node" pan="-359.86"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label backgroundcolor="0xffffff" background="1" borderalpha="1" border="1" textcolor="0x000000" borderradius="1" textalpha="1" backgroundalpha="1" height="20" width="180" wordwrap="1" enabled="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
+      <hotspot title="야외주차장" skinid="ht_node" url="{node4}" tilt="-8.19" target="" description="" pan="-178.52" id="Point01"/>
+      <hotspot title="단지내부정원" skinid="ht_node" url="{node2}" tilt="-8.02" target="" description="" pan="-359.86" id="Point02"/>
     </hotspots>
     <media/>
-    <transition enabled="1" softedge="0" zoomin="0" zoomafteroutfov="40" delay="none" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomafterinfov="140" blendcolor="0x000000" zoomspeed="2" zoomfov="40" blendtime="1"/>
-    <autorotate enabled="1" startloaded="0" useanimation="0" delay="5.00" horizonfromdefview="0" returntohorizon="0.000" noderandom="1" nodedelay="0.00" nodefilter="" speed="0.020"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control contextprojections="0" simulatemass="1" lockedwheel="0" contextfullscreen="1" contextvr="1" lockedmouse="0" dblclickfullscreen="0" sensitivity="8" lockedkeyboardzoom="0" hideabout="1" invertwheel="0" speedwheel="1" lockedkeyboard="0" rubberband="0" invertcontrol="1" zoomcentercursor="1"/>
+    <transition zoomspeed="2" zoomafterinfov="140" zoomoutpause="1" blendtime="1" zoomfov="40" zoomout="0" type="crossdissolve" zoomafteroutfov="40" delay="none" enabled="1" softedge="0" blendcolor="0x000000" zoomin="0"/>
+    <autorotate useanimation="0" returntohorizon="0.000" noderandom="1" nodedelay="0.00" speed="0.020" enabled="1" delay="5.00" nodefilter="" horizonfromdefview="0" startloaded="0"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control speedwheel="1" zoomcentercursor="1" lockedmouse="0" contextprojections="0" contextvr="1" hideabout="1" invertcontrol="1" invertwheel="0" sensitivity="8" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" simulatemass="1"/>
   </panorama>
   <panorama hideabout="1" id="node2">
-    <input height="2000" levelingpitch="0" leveltilesize="510" width="2000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400">
-      <level height="2000" preload="0" width="2000" predecode="0"/>
-      <level height="1000" preload="0" width="1000" predecode="0"/>
-      <level height="500" preload="1" width="500" predecode="1"/>
+    <input levelingpitch="0" levelingroll="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" width="2000" levelbiashidpi="1.000" overlap="1" leveltilesize="510" levelbias="0.400">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="2" pannorth="-47.7257">
-      <start tilt="0.369697" projection="4" pan="21.4843" fov="134.939"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" fovstereographic="330" pan="360" fov="140"/>
+    <view pannorth="-47.7257" fovmode="2">
+      <start projection="4" fov="134.939" tilt="0.369697" pan="21.4843"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovfisheye="360" scaletofit="1" fov="140" tilt="90" fovstereographic="330" pan="360"/>
     </view>
-    <userdata source="" copyright="" title="단지내부정원" tags="디프리마외부-1-아웃도어-20240304-133225|메인" nodeid="node2" longitude="" latitude="" datetime="" description="" heading="-47.7257" customnodeid="" info="" comment="" author="">
-      <mapcoords y="-1.23047" x="1.8457" x_floorplan_percent="67.2" mapid="FloorPlan01" y_floorplan_percent="44.8"/>
+    <userdata tags="디프리마외부-1-아웃도어-20240304-133225|메인" info="" comment="" heading="-47.7257" customnodeid="" latitude="" description="" title="단지내부정원" author="" longitude="" copyright="" datetime="" source="" nodeid="node2">
+      <mapcoords y_floorplan_percent="52.8" x_floorplan_percent="68.4" mapid="FloorPlan01" x="1.87866" y="-1.4502"/>
     </userdata>
-    <hotspots height="20" width="180" wordwrap="1" smoothmovement="0">
-      <label enabled="1" height="20" textcolor="0x000000" background="1" bordercolor="0x000000" textalpha="1" width="180" border="1" borderalpha="1" borderradius="1" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0"/>
-      <hotspot description="" tilt="-13.13" target="" title="단지내부인도" url="{node1}" id="Point01" skinid="ht_node" pan="-319.52"/>
-      <hotspot description="" tilt="-29.52" target="" title="지하주차장입구" url="{node6}" id="Point02" skinid="꺽은선" pan="-169"/>
-      <hotspot description="" tilt="-26.33" target="" title="주출입구" url="{node3}" id="Point03" skinid="꺽은선2" pan="-117.66"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label backgroundcolor="0xffffff" background="1" borderalpha="1" border="1" textcolor="0x000000" borderradius="1" textalpha="1" backgroundalpha="1" height="20" width="180" wordwrap="1" enabled="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
+      <hotspot title="단지내부인도" skinid="ht_node" url="{node1}" tilt="-13.13" target="" description="" pan="-319.52" id="Point01"/>
+      <hotspot title="지하주차장입구" skinid="꺽은선" url="{node6}" tilt="-29.52" target="" description="" pan="-169" id="Point02"/>
+      <hotspot title="주출입구" skinid="꺽은선2" url="{node3}" tilt="-26.33" target="" description="" pan="-117.66" id="Point03"/>
     </hotspots>
     <media/>
-    <transition enabled="1" softedge="0" zoomin="0" zoomafteroutfov="40" delay="none" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomafterinfov="140" blendcolor="0x000000" zoomspeed="2" zoomfov="40" blendtime="1"/>
-    <autorotate enabled="1" startloaded="0" useanimation="0" delay="5.00" horizonfromdefview="0" returntohorizon="0.000" noderandom="1" nodedelay="0.00" nodefilter="" speed="0.020"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control contextprojections="0" simulatemass="1" lockedwheel="0" contextfullscreen="1" contextvr="1" lockedmouse="0" dblclickfullscreen="0" sensitivity="8" lockedkeyboardzoom="0" hideabout="1" invertwheel="0" speedwheel="1" lockedkeyboard="0" rubberband="0" invertcontrol="1" zoomcentercursor="1"/>
+    <transition zoomspeed="2" zoomafterinfov="140" zoomoutpause="1" blendtime="1" zoomfov="40" zoomout="0" type="crossdissolve" zoomafteroutfov="40" delay="none" enabled="1" softedge="0" blendcolor="0x000000" zoomin="0"/>
+    <autorotate useanimation="0" returntohorizon="0.000" noderandom="1" nodedelay="0.00" speed="0.020" enabled="1" delay="5.00" nodefilter="" horizonfromdefview="0" startloaded="0"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control speedwheel="1" zoomcentercursor="1" lockedmouse="0" contextprojections="0" contextvr="1" hideabout="1" invertcontrol="1" invertwheel="0" sensitivity="8" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" simulatemass="1"/>
   </panorama>
   <panorama hideabout="1" id="node5">
-    <input height="2000" levelingpitch="0" leveltilesize="510" width="2000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400">
-      <level height="2000" preload="0" width="2000" predecode="0"/>
-      <level height="1000" preload="0" width="1000" predecode="0"/>
-      <level height="500" preload="1" width="500" predecode="1"/>
+    <input levelingpitch="0" levelingroll="0" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" width="2000" levelbiashidpi="1.000" overlap="1" leveltilesize="510" levelbias="0.400">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="2" pannorth="91.6231">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" fovstereographic="330" pan="360" fov="140"/>
+    <view pannorth="91.6231" fovmode="2">
+      <start projection="4" fov="100" tilt="0" pan="0"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovfisheye="360" scaletofit="1" fov="140" tilt="90" fovstereographic="330" pan="360"/>
     </view>
-    <userdata source="" copyright="" title="지하주차장입구" tags="디프리마외부-1-아웃도어-20240304-135517" nodeid="node5" longitude="" latitude="" datetime="" description="" heading="91.6231" customnodeid="" info="" comment="" author="">
-      <mapcoords y="-1.82373" x="0.966797" x_floorplan_percent="35.2" mapid="FloorPlan01" y_floorplan_percent="66.4"/>
+    <userdata tags="디프리마외부-1-아웃도어-20240304-135517" info="" comment="" heading="91.6231" customnodeid="" latitude="" description="" title="지하주차장입구" author="" longitude="" copyright="" datetime="" source="" nodeid="node5">
+      <mapcoords y_floorplan_percent="80.8" x_floorplan_percent="34.4" mapid="FloorPlan01" x="0.944824" y="-2.21924"/>
     </userdata>
-    <hotspots height="20" width="180" wordwrap="1" smoothmovement="0">
-      <label enabled="1" height="20" textcolor="0x000000" background="1" bordercolor="0x000000" textalpha="1" width="180" border="1" borderalpha="1" borderradius="1" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0"/>
-      <hotspot description="" tilt="-12.99" target="" title="지하주차장입구" url="{node6}" id="Point01" skinid="화살표 흰색" pan="-358.89"/>
-      <hotspot description="" tilt="-10.92" target="" title="단지내부인도" url="{node1}" id="Point02" skinid="화살표 흰색" pan="-181.78"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label backgroundcolor="0xffffff" background="1" borderalpha="1" border="1" textcolor="0x000000" borderradius="1" textalpha="1" backgroundalpha="1" height="20" width="180" wordwrap="1" enabled="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
+      <hotspot title="지하주차장입구" skinid="화살표 흰색" url="{node6}" tilt="-12.99" target="" description="" pan="-358.89" id="Point01"/>
+      <hotspot title="단지내부인도" skinid="화살표 흰색" url="{node1}" tilt="-10.92" target="" description="" pan="-181.78" id="Point02"/>
     </hotspots>
     <media/>
-    <transition enabled="1" softedge="0" zoomin="0" zoomafteroutfov="40" delay="none" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomafterinfov="140" blendcolor="0x000000" zoomspeed="2" zoomfov="40" blendtime="1"/>
-    <autorotate enabled="1" startloaded="0" useanimation="0" delay="5.00" horizonfromdefview="0" returntohorizon="0.000" noderandom="1" nodedelay="0.00" nodefilter="" speed="0.020"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control contextprojections="0" simulatemass="1" lockedwheel="0" contextfullscreen="1" contextvr="1" lockedmouse="0" dblclickfullscreen="0" sensitivity="8" lockedkeyboardzoom="0" hideabout="1" invertwheel="0" speedwheel="1" lockedkeyboard="0" rubberband="0" invertcontrol="1" zoomcentercursor="1"/>
+    <transition zoomspeed="2" zoomafterinfov="140" zoomoutpause="1" blendtime="1" zoomfov="40" zoomout="0" type="crossdissolve" zoomafteroutfov="40" delay="none" enabled="1" softedge="0" blendcolor="0x000000" zoomin="0"/>
+    <autorotate useanimation="0" returntohorizon="0.000" noderandom="1" nodedelay="0.00" speed="0.020" enabled="1" delay="5.00" nodefilter="" horizonfromdefview="0" startloaded="0"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control speedwheel="1" zoomcentercursor="1" lockedmouse="0" contextprojections="0" contextvr="1" hideabout="1" invertcontrol="1" invertwheel="0" sensitivity="8" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" simulatemass="1"/>
   </panorama>
   <panorama hideabout="1" id="node6">
-    <input height="2000" levelingpitch="0" leveltilesize="510" width="2000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelbiashidpi="1.000" levelbias="0.400">
-      <level height="2000" preload="0" width="2000" predecode="0"/>
-      <level height="1000" preload="0" width="1000" predecode="0"/>
-      <level height="500" preload="1" width="500" predecode="1"/>
+    <input levelingpitch="0" levelingroll="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" width="2000" levelbiashidpi="1.000" overlap="1" leveltilesize="510" levelbias="0.400">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="2" pannorth="80.3749">
-      <start tilt="0.641984" projection="4" pan="29.734" fov="98.5487"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" fovstereographic="330" pan="360" fov="140"/>
+    <view pannorth="80.3749" fovmode="2">
+      <start projection="4" fov="98.5487" tilt="0.641984" pan="29.734"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovfisheye="360" scaletofit="1" fov="140" tilt="90" fovstereographic="330" pan="360"/>
     </view>
-    <userdata source="" copyright="" title="지하주차장입구" tags="디프리마외부-1-아웃도어-20240308-160515|메인" nodeid="node6" longitude="" latitude="" datetime="" description="" heading="80.3749" customnodeid="" info="" comment="" author="">
-      <mapcoords y="-1.81274" x="1.35132" x_floorplan_percent="49.2" mapid="FloorPlan01" y_floorplan_percent="66"/>
+    <userdata tags="디프리마외부-1-아웃도어-20240308-160515|메인" info="" comment="" heading="80.3749" customnodeid="" latitude="" description="" title="지하주차장입구" author="" longitude="" copyright="" datetime="" source="" nodeid="node6">
+      <mapcoords y_floorplan_percent="80.8" x_floorplan_percent="54.8" mapid="FloorPlan01" x="1.50513" y="-2.21924"/>
     </userdata>
-    <hotspots height="20" width="180" wordwrap="1" smoothmovement="0">
-      <label enabled="1" height="20" textcolor="0x000000" background="1" bordercolor="0x000000" textalpha="1" width="180" border="1" borderalpha="1" borderradius="1" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0"/>
-      <hotspot description="" tilt="-13.95" target="" title="지하주차장입구" url="{node5}" id="Point01" skinid="화살표 흰색" pan="-183.86"/>
-      <hotspot description="" tilt="-18.78" target="" title="단지내부정원" url="{node2}" id="Point02" skinid="화살표 흰색-작게" pan="-356.1"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label backgroundcolor="0xffffff" background="1" borderalpha="1" border="1" textcolor="0x000000" borderradius="1" textalpha="1" backgroundalpha="1" height="20" width="180" wordwrap="1" enabled="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
+      <hotspot title="지하주차장입구" skinid="화살표 흰색" url="{node5}" tilt="-13.95" target="" description="" pan="-183.86" id="Point01"/>
+      <hotspot title="단지내부정원" skinid="화살표 흰색-작게" url="{node2}" tilt="-18.78" target="" description="" pan="-356.1" id="Point02"/>
     </hotspots>
     <media/>
-    <transition enabled="1" softedge="0" zoomin="0" zoomafteroutfov="40" delay="none" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomafterinfov="140" blendcolor="0x000000" zoomspeed="2" zoomfov="40" blendtime="1"/>
-    <autorotate enabled="1" startloaded="0" useanimation="0" delay="5.00" horizonfromdefview="0" returntohorizon="0.000" noderandom="1" nodedelay="0.00" nodefilter="" speed="0.020"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control contextprojections="0" simulatemass="1" lockedwheel="0" contextfullscreen="1" contextvr="1" lockedmouse="0" dblclickfullscreen="0" sensitivity="8" lockedkeyboardzoom="0" hideabout="1" invertwheel="0" speedwheel="1" lockedkeyboard="0" rubberband="0" invertcontrol="1" zoomcentercursor="1"/>
+    <transition zoomspeed="2" zoomafterinfov="140" zoomoutpause="1" blendtime="1" zoomfov="40" zoomout="0" type="crossdissolve" zoomafteroutfov="40" delay="none" enabled="1" softedge="0" blendcolor="0x000000" zoomin="0"/>
+    <autorotate useanimation="0" returntohorizon="0.000" noderandom="1" nodedelay="0.00" speed="0.020" enabled="1" delay="5.00" nodefilter="" horizonfromdefview="0" startloaded="0"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control speedwheel="1" zoomcentercursor="1" lockedmouse="0" contextprojections="0" contextvr="1" hideabout="1" invertcontrol="1" invertwheel="0" sensitivity="8" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" simulatemass="1"/>
   </panorama>
   <masternode>
-    <userdata description="" copyright="" title="" tags="" comment="" author=""/>
+    <userdata copyright="" tags="" comment="" description="" title="" author=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
   </masternode>
-  <map height="4000" title="" zoomlevels="1" id="FloorPlan01" index="0" width="4000" bgcolor="rgba(255, 255, 255, 0)" transparent="1" type="file" floorplannorth="0" crispedges="0" tileformat="jpg"/>
+  <map index="0" zoomlevels="1" bgcolor="rgba(255, 255, 255, 0)" title="" type="file" height="4000" width="4000" transparent="1" crispedges="0" floorplannorth="0" tileformat="jpg" id="FloorPlan01"/>
 </tour>
